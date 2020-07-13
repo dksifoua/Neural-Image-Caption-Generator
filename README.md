@@ -43,13 +43,17 @@ We used the **encoder-decoder architecture** combined with **attention mechanism
 
 ### 3.1. Encoder - Convolutional Neural Network
 
+CNN is a class of deep, feed-forward artificial neural networks that has successfully been applied to analyzing visual imagery. A CNN consists of an input layer and an output layer, as well as multiple hidden layers. The hidden layers of a CNN typically consist of convolutional layers, pooling layers, fully connected layers, and normalization layers. CNN also has many applications such as image and video recognition, recommender systems, and natural language processing.
+
 We fine tuned the pretrained ResNet model without the last two layers.
 
 <p align="center">
   <img src='https://www.researchgate.net/profile/Seunghyoung_Ryu/publication/329954455/figure/fig1/AS:725290594623488@1549934161033/The-structure-of-ResNet-12.png'>
 </p>
 
-### 3.2. Decoder - Recurrent Neural Network
+### 3.2. Decoder - Long Short-Term Memory
+
+LSTM is a basic deep learning model and capable of learning long-term dependencies. A LSTM internal unit is composed of a cell, an input gate, an output gate, and a forget gate. LSTM internal units have hidden state augmented with nonlinear mechanisms to allow state to propagate without modification, be updated, or be reset, using simple learned gating functions. LSTM work tremendously well on various problems, such as natural language text compression, handwriting recognition, and electric load forecasting.
 
 <p align="center">
   <img src='https://www.researchgate.net/profile/Savvas_Varsamopoulos/publication/329362532/figure/fig5/AS:699592479870977@1543807253596/Structure-of-the-LSTM-cell-and-equations-that-describe-the-gates-of-an-LSTM-cell.jpg'>
