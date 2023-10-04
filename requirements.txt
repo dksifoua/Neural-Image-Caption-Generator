@@ -1,4 +1,4 @@
-joblib==0.13.2
+joblib==1.2.0
 numpy==1.22.0
 Pillow==10.0.1
 spacy==2.2.4
