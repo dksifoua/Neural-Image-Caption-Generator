@@ -2,7 +2,7 @@ joblib==0.13.2
 numpy==1.22.0
 Pillow==7.1.0
 spacy==2.2.4
-torch==1.1.0
+torch==1.13.1
 torchtext==0.6.0
 torchvision==0.4.0a0+d31eafa
 tqdm==4.46.1
